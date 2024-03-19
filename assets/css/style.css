@@ -1,0 +1,33 @@
+body, html {
+  margin: 0;
+  font-family: 'Helvetica', sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  padding-left: 15%;
+}
+
+a {
+      text-decoration: none;
+      color: rgb(65,147,248);
+      text-shadow: none;    
+  }
+
+  a:hover,a:focus {
+      text-decoration: none;
+      color: rgb(65,147,248);
+  }
