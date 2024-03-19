@@ -32,3 +32,15 @@ a {
       text-decoration: none;
       color: rgb(65,147,248);
   }
+
+.imgbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 10%;
+}
+
+.imgbox img {
+  height: 40vh;
+}
