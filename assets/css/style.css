@@ -14,8 +14,9 @@ body {
   text-align: center;
 }
 
-.intro {
+.text {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: left;
   padding-left: 15%;
