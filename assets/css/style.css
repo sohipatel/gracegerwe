@@ -73,16 +73,15 @@ p {
   }
 
   .imgbox img {
-    height: 20vh;
+    height: 20vh!important;
     max-width: 100%;
   }
 
   .imgbox video {
-    height: 20vh;
+    height: 20vh!important;
     max-width: 100%;
   }
 }
-
 
 .imgbox img {
   height: 30vh;
