@@ -58,6 +58,10 @@ p {
     font-size: 1em;
     margin: 0.5em;
   }
+
+  .brscrunch {
+    		line-height: 1.1;
+  }
 }
 
 .imgbox img {
