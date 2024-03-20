@@ -67,9 +67,22 @@ p {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
     grid-gap: 5%;
+    padding-bottom: 2%;
     justify-content: center;
     align-items: center;
+  }
+
+  .imgbox img {
+    height: 20vh;
+    max-width: 100%;
+  }
+
+  .imgbox video {
+    height: 20vh;
+    max-width: 100%;
+  }
 }
+
 
 .imgbox img {
   height: 30vh;
