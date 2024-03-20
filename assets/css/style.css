@@ -77,12 +77,12 @@ p {
   }
 
   .imgbox img {
-    height: 20vh!important;
+    height: fit-content!important;
     max-width: 100%;
   }
 
   .imgbox video {
-    height: 20vh!important;
+    height: fit-content!important;
     max-width: 100%;
   }
 }
