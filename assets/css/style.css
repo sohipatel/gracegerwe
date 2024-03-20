@@ -78,12 +78,14 @@ p {
 
   .imgbox img {
     height: fit-content!important;
+    width: 20vh!important;
     max-height: 100%;
     max-width: 100%;
   }
 
   .imgbox video {
     height: fit-content!important;
+    width: 20vh!important;
     max-height: 100%;
     max-width: 100%;
   }
