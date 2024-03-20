@@ -36,7 +36,7 @@ a {
 
 .imgbox {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   text-align: center;
   gap: 10%;
@@ -44,4 +44,5 @@ a {
 
 .imgbox img {
   height: 40vh;
+  width: fit-content;
 }
