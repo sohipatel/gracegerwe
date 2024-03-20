@@ -49,23 +49,10 @@ p {
   body, html {
     margin: 0 2%;
   }
-  
-  .imgbox {
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    gap: 5%;
-  }
 
-  .imgbox img {
-    height: 20vh;
-    width: fit-content;
-  }
-
-  imgbox video {
-    height: 20vh;
-    width: fit-content;
+  p {
+    font-size: 1em;
+    margin: 0.5em;
   }
 }
 
