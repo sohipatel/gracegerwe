@@ -23,14 +23,14 @@ body {
 }
 
 a {
-      text-decoration: none;
-      color: rgb(65,147,248);
-      text-shadow: none;    
+  text-decoration: none;
+  color: rgb(65,147,248);
+  text-shadow: none;    
 }
 
 a:hover,a:focus {
-      text-decoration: none;
-      color: rgb(65,147,248);
+  text-decoration: none;
+  color: rgb(65,147,248);
 }
 
 .imgbox {
@@ -42,12 +42,12 @@ a:hover,a:focus {
 }
 
 .imgbox img {
-  height: 40vh;
+  height: 30vh;
   width: fit-content;
 }
 
 .imgbox video {
-  height: 40vh;
+  height: 30vh;
   width: fit-content;
 }
 
