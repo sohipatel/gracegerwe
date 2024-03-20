@@ -46,3 +46,8 @@ a {
   height: 40vh;
   width: fit-content;
 }
+
+.imgbox video {
+  height: 40vh;
+  width: fit-content;
+}
