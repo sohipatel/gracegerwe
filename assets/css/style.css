@@ -45,6 +45,29 @@ p {
   gap: 3%;
 }
 
+@media only screen and (max-width: 768px) {
+  body, html {
+    margin: 0 2%;
+  }
+  
+  .imgbox {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 5%;
+  }
+
+  .imgbox img {
+    height: 20vh;
+    width: fit-content;
+  }
+
+  imgbox video {
+    height: 20vh;
+    width: fit-content;
+  }
+}
+
 .imgbox img {
   height: 30vh;
   width: fit-content;
