@@ -54,6 +54,7 @@ p {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    align-items: center;
     gap: 5%;
   }
 
