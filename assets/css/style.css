@@ -93,3 +93,27 @@ p {
   margin: 0 20px;
   color: #000;
 }
+
+.content {
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      gap: 20px;
+  }
+
+  .right-column {
+      grid-column: 1 / 2;
+      padding: 20px; /* Adding padding inside the left column */
+  }
+
+  .left-column {
+      grid-column: 2 / -1;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      padding: 20px; /* Adding padding inside the right column */
+  }
+
+  .right-column img {
+      max-width: 100%;
+      height: auto;
+  }
