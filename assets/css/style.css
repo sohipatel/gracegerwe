@@ -67,8 +67,9 @@ p {
   .brscrunch {
     		line-height: 1.1;
   }
+}
 
-  .imgbox img {
+.imgbox img {
     width: fit-content!important;
     height: 20vh!important;
     max-height: 100%;
@@ -81,17 +82,6 @@ p {
     max-height: 100%;
     max-width: 100%;
   }
-}
-
-.imgbox img {
-  height: 30vh;
-  width: fit-content;
-}
-
-.imgbox video {
-  height: 30vh;
-  width: fit-content;
-}
 
 .social-icons-container {
   display: block;
