@@ -38,14 +38,12 @@ p {
 }
 
 .imgbox {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
-    grid-gap: 5%;
-    padding-bottom: 2%;
-    justify-content: center;
-    align-items: center;
-    /* padding: 20px; */
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  gap: 3%;
+}
 
 @media only screen and (max-width: 768px) {
   body, html {
@@ -68,9 +66,17 @@ p {
   .brscrunch {
     		line-height: 1.1;
   }
-}
 
-.imgbox img {
+  .imgbox {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+    grid-gap: 5%;
+    padding-bottom: 2%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imgbox img {
     width: fit-content!important;
     height: 20vh!important;
     max-height: 100%;
@@ -83,6 +89,17 @@ p {
     max-height: 100%;
     max-width: 100%;
   }
+}
+
+.imgbox img {
+  height: 30vh;
+  width: fit-content;
+}
+
+.imgbox video {
+  height: 30vh;
+  width: fit-content;
+}
 
 .social-icons-container {
   display: block;
@@ -94,14 +111,3 @@ p {
   margin: 0 20px;
   color: #000;
 }
-
-.content {
-      display: grid;
-      grid-template-columns: 2fr 2fr;
-      gap: 20px;
-  }
-
-  .left-column {
-      grid-column: 1 / 2;
-      padding: 20px; /* Adding padding inside the left column */
-  }
