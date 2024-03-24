@@ -45,6 +45,11 @@ p {
   gap: 3%;
 }
 
+.metabox {
+    display: flex;
+    flex-direction: row;
+  }
+
 @media only screen and (max-width: 768px) {
   body, html {
     margin: 0 2%;
@@ -65,6 +70,10 @@ p {
 
   .brscrunch {
     		line-height: 1.1;
+  }
+
+  .metabox {
+    flex-direction: column;
   }
 
   .imgbox {
